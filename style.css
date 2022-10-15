@@ -28,3 +28,21 @@ table tr th {
     border: 1px solid #999;
     text-align: center;
 }
+input, textarea {
+    width: 200px;
+}
+label
+{
+    display: block;
+}
+.mg1 {
+    margin-bottom: 20px;
+}
+.labelradio
+{
+    display: inline;
+}
+input[type="radio"]
+{
+    width: auto;
+}
