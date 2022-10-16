@@ -7,7 +7,7 @@
     <title>Contact</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="fundal">
     <h2>Contact @linustech</h2>
     <form action="">
       <div class="mg1">
@@ -22,17 +22,55 @@
         <label for="email">Your email</label>
         <input type="email" id="email" />
       </div>
-      <div class="">
-        <input type="radio" id="masculin" name="sex"/>
-        <label class="labelradio" for="masculin">Masculin</label>
+
+      <div class="mg1">
+        <div class="">
+          <input type="radio" id="masculin" name="sex" />
+          <label class="labelradio" for="masculin">Masculin</label>
+        </div>
+        <div class="">
+          <input type="radio" id="feminin" name="sex" />
+          <label class="labelradio" for="feminin">Feminin</label>
+        </div>
+        <div class="">
+          <input type="radio" id="animal" name="sex" />
+          <label class="labelradio" for="animal">Animal</label>
+        </div>
       </div>
-      <div class="">
-        <input type="radio" id="feminin" name="sex" />
-        <label class="labelradio" for="feminin">Feminin</label>
+
+      <div class="mg1">
+        <label for="varsta">Varsta</label>
+        <input type="number" id="varsta" />
       </div>
-      <div class="">
-        <input type="radio" id="animal" name="sex" />
-        <label class="labelradio" for="animal">Animal</label>
+
+      <div class="mg1">
+        <label for="Parola">Parola</label>
+        <input type="password" id="Parola" />
+      </div>
+
+      <div class="mg1">
+        <div class="">
+          <input type="checkbox" id="pisica" />
+          <label class="labelradio" for="pisica">Pisica</label>
+        </div>
+        <div class="">
+          <input type="checkbox" id="catel" />
+          <label class="labelradio" for="catel">Caine</label>
+        </div>
+      </div>
+
+      <div class="mg1">
+        <label for="lista">Lista</label>
+        <select id="lista">
+          <option value="0">--Choose an option--</option>
+          <option value="1">Roman</option>
+          <option value="2">Tigan</option>
+          <option value="3">Evreu</option>
+        </select>
+      </div>
+        
+      <div class="mg1">
+        <input type="submit" id="submit" value="Trimite formular" />
       </div>
     </form>
   </body>
