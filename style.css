@@ -1,59 +1,97 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-h1{
-    color: rgb(33, 0, 153);
-    text-align: center;
+h1 {
+  color: rgb(33, 0, 153);
+  text-align: center;
 }
-p{
-    font-family:'Comic Sans MS';
+p {
+  font-family: "Comic Sans MS";
 }
-img{
-    width: 100%;
-    border-radius: 100px;
-    border: 10px solid #00cf1d;
-    box-shadow: 6px 10px 15px 0px #00000066;
+img {
+  width: 100%;
+  border-radius: 100px;
+  border: 10px solid #00cf1d;
+  box-shadow: 6px 10px 15px 0px #00000066;
 }
-
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    border: 1px solid #999;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #999;
 }
 
 table tr td,
 table tr th {
-    padding: 10px;
-    border: 1px solid #999;
-    text-align: center;
+  padding: 10px;
+  border: 1px solid #999;
+  text-align: center;
 }
 
 form {
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-input, textarea, select {
-    width: 200px;
-    
+input,
+textarea,
+select {
+  width: 200px;
 }
-label
-{
-    display: block;
+label {
+  display: block;
 }
 .mg1 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
-.labelradio
-{
-    display: inline;
+.labelradio {
+  display: inline;
 }
 input[type="radio"],
-input[type="checkbox"]
-{
-    width: auto;
+input[type="checkbox"] {
+  width: auto;
 }
-.fundal
-{background-color: bisque;}
+.fundal {
+  background-color: bisque;
+}
+
+.xxx {
+  display: inline;
+  width: 250px;
+  margin: 25px;
+  padding: 20px;
+  background-color: #ffcc00;
+  border: 2px solid rebeccapurple;
+}
+
+.flx {
+  display: flex;
+  flex-direction: row;
+}
+.header {
+  background-color: #8a0b0b66;
+  box-shadow: 0 0 10px 0 black;
+  padding: 5px;
+}
+.logo img {
+    width: 50px;
+    border:none;
+    box-shadow: none;
+    border-radius: 0;
+
+
+}
+.logo {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.menu {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
