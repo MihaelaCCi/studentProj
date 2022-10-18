@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+*::selection {
+  background-color: orange;
+  color: black;
+  text-shadow: 0 0 5px #ffffff80;
+}
+
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-grey {
+  background-color: #ddd;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.card {
+  height: auto;
+  font-size: 1em;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.5), 0 0 2px -1px rgba(0, 0, 0, 0.2);
+}
+
+.card__header {
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  z-index: 1;
+  min-height: 20px;
+  box-shadow: 0 1px 0 0 rgb(0 0 0 / 5%), 0 -1px 7px 3px rgb(0 0 0 / 8%);
+  position: relative;
+}
+
+.card__content {
+  background-color: #fbfafa;
+}
+
+.card__content img {
+  border-radius: 5000px;
+  box-shadow: 0 0 0 0.4em rgb(255 255 255), 0 0px 8px 8px #0000001f;
+  margin-inline: 14px;
+  display: block;
+  margin-block: 30px;
+}
+
+.card__header-vertical {
+  background-image: url("https://c1.staticflickr.com/6/5451/9156977025_4ce4f03a14.jpg");
+  aspect-ratio: 1/1;
+  background-size: cover;
+}
+
+.card__content ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.card__content ul li {
+  margin-bottom: 0.25em;
+}
+
+.g-1 {
+  gap: 1em;
+}
+.p-i1 {
+  padding-inline: 1em;
+}
+
+.p-1 {
+    padding:1em;
+}
+.m-5 {
+  margin: 50px;
+}
+.set-center {
+  margin-inline: auto;
+}
+
+.w250 {
+  width: 250px;
+}
+
+.w500 {
+  width: 500px;
+}
+.scale-150::before {
+  scale: 1.5;
+  margin-right: 10px;
+}
+
+.ms-1 {
+  margin-left: 4px;
+}
+
+.m-0 {
+    margin:0;
+}
+
+.mb-1 {
+    margin-bottom: 1em !important;
+}
+.flx {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flx-elem {
+  flex: 1 1 auto;
+}
+
+.bt {
+    font-size:1em;
+  border-radius: 4px;
+  border: 1px solid #000;
+  background-color: transparent;
+  padding: 0.5em 0.8em;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap:.5em;
+  box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.5), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bt.bt-purple {
+  border-color: #c04fad;
+  color: #c04fad;
+}
+
+.bt.bt-purple:hover {
+  background-color: #c04fad;
+  color: #fff;
+}
+
+.bt.bt-no-style {
+  border: none;
+  box-shadow: none;
+  padding-inline: 0.2em;
+}
+
+.bt.bt-block {
+    display: flex;
+    width:100%;
+}
+
+.flx-col {
+  flex-direction: column;
+}
+
+.vertical h2 {
+    margin: 0.5em 0 1em 0;
+}
