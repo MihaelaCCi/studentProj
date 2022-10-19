@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+*::selection {
+  background-color: orange;
+  color: black;
+  text-shadow: 0 0 5px #ffffff80;
+}
+
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-grey {
+  background-color: #ddd;
+}
+
+.m-5 {
+  margin: 50px;
+}
+.set-center {
+  margin-inline: auto;
+}
+
+.card2{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(160, 151, 151);
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.card1{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(160, 151, 151);
+  border-radius: 7px;
+  overflow: hidden;
+  box-shadow: 0 2px 7px 0 rgb(59, 58, 58);
+}
+
+.w250 {
+  width: 250px;
+}
+
+.w500 {
+  width: 500px;
+}
+
+.flx {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flx-elem {
+  flex: 1 1 auto;
+  margin: 13px;
+}
+
+.imaginec2 {
+  aspect-ratio: 1/1;
+  background-size: cover;
+  background-image: url("https://c1.staticflickr.com/6/5451/9156977025_4ce4f03a14.jpg");
+}
+
+.continutcard {
+  background-color: white;
+  padding: 10px;
+}
+
+h2 {
+  margin-top: 0;
+  padding: 10px;
+}
+.readmore {
+  padding: 10px;
+  display: block;
+  width: 100%;
+  background-color: white;
+  color: purple;
+  border-radius: 7px;
+  border: 1px solid purple;
+  box-shadow: 0 2px 7px 0 black;
+}
+.ulcard2 {
+  list-style: none;
+  padding-inline-start: 10px;
+}
+
+.flx {
+  display: flex;
+  flex-direction: row;
+
+
+}
+.header {
+  background-color: white;
+  box-shadow: 0 0 10px 0 black;
+  padding: 1px;
+}
+.logo img {
+    width: 50px;
+    border:none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.card1bottom img {
+  border-radius: 50%;
+  border-color: rgb(240, 234, 234);
+  width: 150px;
+  height: 150px;
+
+  
+}
+
+.card1bottom {
+  background-color: whitesmoke;
+  padding: 10px;
+  box-shadow: 0 0 5px 0 #00000059;
+  display: flex;
+  flex-direction: row;
+}
+
+.textc1 {
+  list-style:none;
+  padding-left: 15px;
+}
+
+.textc1 li {
+  display: flex;
+  gap:10px;
+}
+.card1bottom h2 {
+  padding-left: 15px;
+}
+
+.circle {
+  background: white;
+  width: 160px;
+  height: 160px; 
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  padding-left: 5px;
+  padding-top: 5px;
+}
