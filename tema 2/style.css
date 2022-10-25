@@ -1,0 +1,95 @@
+:root {
+  --header            : #4f276a;
+  --list-item-bg      : #e3ccff;
+  --header-nav-text   : #afa4c0;
+  --list-item-bg-hover: #6b398c;
+  --list-item-bg-focus: #542d6e;
+}
+
+html,
+body {
+  background-color        : #f1f1f1;
+  font-family             : Arial, Helvetica, sans-serif;
+  margin                  : 0;
+  padding                 : 0;
+  min-height              : 100vh;
+  line-height             : 1.15;
+  -webkit-text-size-adjust: 100%;
+  font-size               : 100%;
+}
+/* This is where your CSS starts
+   ========================================================================== */
+   
+
+   header {
+    display: flex;
+    background-color: #4f276a ;
+    color: white;
+    padding: 10px;
+   }
+   .logo {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    gap: 10px;
+   }
+
+   .logo img {
+    width: 25px;
+   }
+
+   nav ul {
+    display: flex;
+    list-style-type: none;
+    gap:10px;
+   }
+
+   
+nav ul li a {
+  color: #ffffff7d;
+  text-decoration: none;
+  cursor:pointer;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+color: white;
+}
+
+.list {
+list-style-type: none;
+display: inline-block;
+border: 2px solid white;
+padding: 0;
+box-shadow: 0px 3px 10px -1px #0000005c;
+border-radius: 7px;
+}
+
+.list li {
+  background-color:  #e3ccff;
+  color:black;
+  padding: 12px;
+  border-bottom: 2px solid white;
+  
+}
+.list li:hover {
+  background-color: #6b398c;
+  color:white;
+}
+.list li:focus ,.list li:active {
+  background-color: #542d6e;
+  color:white;
+}
+.list li:last-child {
+  border-bottom: 0;
+  border-radius: 0 0 7px 7px;
+}
+
+.list li:first-child {
+  border-radius: 7px 7px 0 0;
+}
+
+.gap-x {
+margin-left: 25px;
+margin-right: 25px;
+}

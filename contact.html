@@ -1,77 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body class="fundal">
-    <h2>Contact @linustech</h2>
-    <form action="">
-      <div class="mg1">
-        <label for="name">Your name</label>
-        <input type="name" id="name" />
-      </div>
-      <div class="mg1">
-        <label for="description">Your Description</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-      </div>
-      <div class="mg1">
-        <label for="email">Your email</label>
-        <input type="email" id="email" />
-      </div>
 
-      <div class="mg1">
-        <div class="">
-          <input type="radio" id="masculin" name="sex" />
-          <label class="labelradio" for="masculin">Masculin</label>
-        </div>
-        <div class="">
-          <input type="radio" id="feminin" name="sex" />
-          <label class="labelradio" for="feminin">Feminin</label>
-        </div>
-        <div class="">
-          <input type="radio" id="animal" name="sex" />
-          <label class="labelradio" for="animal">Animal</label>
-        </div>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-      <div class="mg1">
-        <label for="varsta">Varsta</label>
-        <input type="number" id="varsta" />
-      </div>
+<body class="fundal">
+  <h2>Contact @linustech</h2>
+  <form action="">
+    <div class="mg1">
+      <label for="name">Your name</label>
+      <input type="name" id="name" />
+    </div>
+    <div class="mg1">
+      <label for="description">Your Description</label>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+    <div class="mg1">
+      <label for="email">Your email</label>
+      <input type="email" id="email" />
+    </div>
 
-      <div class="mg1">
-        <label for="Parola">Parola</label>
-        <input type="password" id="Parola" />
-      </div>
+    <div>
+      <label for="tel"> Your number phone</label>
+      <input type="tel" id="tel" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" />
+    </div>
 
-      <div class="mg1">
-        <div class="">
-          <input type="checkbox" id="pisica" />
-          <label class="labelradio" for="pisica">Pisica</label>
-        </div>
-        <div class="">
-          <input type="checkbox" id="catel" />
-          <label class="labelradio" for="catel">Caine</label>
-        </div>
+    <div class="mg1">
+      <div class="">
+        <input type="radio" id="masculin" name="sex" />
+        <label class="labelradio" for="masculin">Masculin</label>
       </div>
+      <div class="">
+        <input type="radio" id="feminin" name="sex" />
+        <label class="labelradio" for="feminin">Feminin</label>
+      </div>
+      <div class="">
+        <input type="radio" id="animal" name="sex" />
+        <label class="labelradio" for="animal">Animal</label>
+      </div>
+    </div>
 
-      <div class="mg1">
-        <label for="lista">Lista</label>
-        <select id="lista">
-          <option value="0">--Choose an option--</option>
-          <option value="1">Roman</option>
-          <option value="2">Tigan</option>
-          <option value="3">Evreu</option>
-        </select>
+    <div class="mg1">
+      <label for="varsta">Varsta</label>
+      <input type="number" id="varsta" />
+    </div>
+
+    <div class="mg1">
+      <label for="Parola">Parola</label>
+      <input type="password" id="Parola" />
+    </div>
+
+    <div class="mg1">
+      <div class="">
+        <input type="checkbox" id="pisica" />
+        <label class="labelradio" for="pisica">Pisica</label>
       </div>
-        
-      <div class="mg1">
-        <input type="submit" id="submit" value="Trimite formular" />
+      <div class="">
+        <input type="checkbox" id="catel" />
+        <label class="labelradio" for="catel">Caine</label>
       </div>
-    </form>
-  </body>
+    </div>
+
+    <div class="mg1">
+      <label for="lista">Lista</label>
+      <select id="lista">
+        <option value="0">--Choose an option--</option>
+        <option value="1">Roman</option>
+        <option value="2">Tigan</option>
+        <option value="3">Evreu</option>
+      </select>
+    </div>
+
+    <div class="mg1">
+      <input type="submit" id="submit" value="Trimite formular" />
+    </div>
+  </form>
+  <form action="">
+    <div class="mg1">
+      <label for="Nume">Nume</label>
+      <input type="text" id="Nume">
+    </div>
+    <div class="mg1">
+      <label for="phone">Enter your phone number:</label>
+      <input type="tel" id="phone" name="phone"
+             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+             required>
+    </div>
+    <div class="mg1 ">
+      <input type="submit" name="" id="">
+    </div>
+  </form>
+</body>
+
 </html>
