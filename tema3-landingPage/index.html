@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <!--un header (<header>) in care creem un <div> in care punem o poza cu un logo si un <nav> in care punem 3 link uri pe acelasi rand (home, gallery, contact)-->
+    <header>
+        <div class="logo">
+            <img src="https://cdn.logojoy.com/wp-content/uploads/2018/05/07163601/animal%402x.png" alt="logo">
+            Panda Hub
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a> </li>
+                <li><a href="index.html">gallery</a> </li>
+                <li><a href="index.html">contact</a> </li>
+            </ul>
+
+        </nav>
+    </header>
+    <!-- creeaza o lista (<ul>) cu 6 items (<li>), schimba culoarea fundalului cand duci mouse ul deasupra oricarui <li> in culoarea #eeeeee, primul <li> are culoarea textului rosie, ultimul <li> culoarea albastra -->
+
+    <!-- titlu <h1>  -->
+    <section id="main-screen" class="container">
+        <div class="d-flex align-items-center">
+            <div class="flex-50p">
+                <h1>Basics of HTML and CSS</h1>
+                <p class="lead">This page contains a few basic html structures and some css styling to create basic UI
+                    components to help you get an idea of how web development happens. Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Vero unde illum, rerum id exercitationem voluptatem
+                    cumque autem quod quis obcaecati, mollitia ratione eaque totam officiis error
+                    voluptatum pariatur iusto earum? </p>
+
+
+                <div class="d-flex gap-y">
+                    <button class="bt bt-lg bt-purple">Call To Action</button>
+                    <button class="bt bt-lg">Read more</button>
+                </div>
+            </div>
+            <div class="flex-50p">
+                <img style="width:100%"
+                src="https://icare.eu/ro/wp-content/uploads/2020/11/70-Apple-iMac-27-inch-5K-Retina-iCare-Store-Hero.png">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="card" class="gap-x gap-y gap-bottom-lg">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+
+                <div class="card w250 shadow">
+                    <div class="card-header">Regular</div>
+                    <div class="card-body">
+                        <h4>card body title</h4>
+                        <p>card content Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore impedit animi
+                            id quas recusandae libero possimus corrupti voluptatum, nulla perspiciatis sint
+                            esse
+                            quidem, tempore ea nobis modi veritatis maxime ab.</p>
+                        <div class="d-flex">
+                            <button class="bt bt-purple">Buy now</button>
+                            <button class="bt">compare</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card w250 shadow-lg scale-1-1">
+                    <div class="card-header">Premium</div>
+                    <div class="card-body">
+                        <h4>card body title</h4>
+                        <p>card content Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore impedit animi
+                            id quas recusandae libero possimus corrupti voluptatum, nulla perspiciatis sint
+                            esse
+                            quidem, tempore ea nobis modi veritatis maxime ab.</p>
+                        <div class="d-flex">
+                            <button class="bt bt-purple">Buy now</button>
+                            <button class="bt">compare</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card w250 shadow">
+                    <div class="card-header">Business</div>
+                    <div class="card-body">
+                        <h4>card body title</h4>
+                        <p>card content Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore impedit animi
+                            id quas recusandae libero possimus corrupti voluptatum, nulla perspiciatis sint
+                            esse
+                            quidem, tempore ea nobis modi veritatis maxime ab.</p>
+                        <div class="d-flex">
+                            <button class="bt bt-purple">Buy now</button>
+                            <button class="bt">compare</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <section>copyright SDA 2021</section>
+        <aside class="d-flex">
+            <a href="http://" target="_blank">SDA</a>
+            <a href="http://" target="_blank">contact us</a>
+            <a href="http://" target="_blank">address</a>
+            <a href="http://" target="_blank">FAQ</a>
+        </aside>
+    </footer>
+</body>
+
+</html>

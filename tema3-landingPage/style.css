@@ -1,0 +1,109 @@
+:root {
+  --header            : #4f276a;
+  --list-item-bg      : #e3ccff;
+  --header-nav-text   : #afa4c0;
+  --list-item-bg-hover: #6b398c;
+  --list-item-bg-focus: #542d6e;
+  --bt-default-gb     : #ddd;
+}
+
+html,
+body {
+  background-color        : #f1f1f1;
+  font-family             : Arial, Helvetica, sans-serif;
+  margin                  : 0;
+  padding                 : 0;
+  min-height              : 100vh;
+  line-height             : 1.15;
+  -webkit-text-size-adjust: 100%;
+  font-size               : 100%;
+}
+
+/* This is where your CSS starts
+   ========================================================================== */
+   header {
+    display: flex;
+    align-items: center;
+    background-color: purple;
+    color: white;
+   }
+
+   .logo {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+   }
+
+   .logo img {
+    width: 35px;
+   }
+
+   nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+   } 
+
+   nav ul li a {
+    padding: 20px 13px;
+    text-decoration: none;
+    color:wheat;
+   }
+   nav ul li:last-child {
+    padding-right: 13px;
+   }
+
+   nav ul li a:hover {
+    background-color: white;
+    color: black;
+   }
+
+   .container {
+  margin-inline: 15px;
+  width:auto
+   }
+
+   .d-flex{
+    display: flex;
+    align-items: center;
+   }
+
+   .flex-50p{
+    flex:1 1 50%;
+   }
+
+
+   
+  .bt {
+  background: #d3cfcf;
+  padding: 10px 13px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 2px 5px -1px #00000042, 0 1px 2px 0px #00000073;
+  text-align: center;
+  font-size: 1.1em;
+  }
+
+  .gap-y{
+    gap:20px;
+  }
+
+  .bt-purple {
+background-color: #6951a0;
+color: white;
+  }
+
+  @media screen and (min-width: 800px) {
+    .container {
+      margin-inline: auto;
+      width: 770px;
+       }
+  }
+
+
+
+
+
