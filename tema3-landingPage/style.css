@@ -69,12 +69,12 @@ body {
    .d-flex{
     display: flex;
     align-items: center;
+gap:15px;
    }
 
    .flex-50p{
     flex:1 1 50%;
    }
-
 
    
   .bt {
@@ -85,6 +85,7 @@ body {
   box-shadow: 0 2px 5px -1px #00000042, 0 1px 2px 0px #00000073;
   text-align: center;
   font-size: 1.1em;
+  width: max-content;
   }
 
   .gap-y{
@@ -102,8 +103,55 @@ color: white;
       width: 770px;
        }
   }
+  @media screen and (min-width: 1000px) {
+    .container {
+      margin-inline:auto;
+      width:999px;
+    }
+
+    .bt {
+      padding: 15px 20px;
+    }
+  }
+
+.card-body {
+  
+  padding: 5px;
+  margin: 5px 15px 5px 15px;
+}
 
 
 
+.justify-content-center {
+  justify-content: center;
+  gap: 25px;
+}
 
+.card {
+  border: none;
+  box-shadow: 0 7px 21px 2px #00000042;
+  border-radius: 4px;
+}
+
+.card-header {
+  background: #cbc6c659;
+  padding: 10px;
+}
+
+footer {
+  background: #480348;
+}
+
+.sda {
+  color: white;
+}
+
+.d-flex a {
+  color: white;
+  text-decoration: none;
+}
+
+.sda-flex-end {
+  justify-content: flex-end;
+}
 
