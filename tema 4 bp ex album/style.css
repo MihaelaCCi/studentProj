@@ -1,0 +1,110 @@
+.navbar {
+  display: flex;
+  padding: 8px 8px;
+  background-color: rgb(135, 96, 96);
+  justify-content: space-between;
+  width: 100%;
+}
+header {
+  display: flex;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.align-center {
+  text-align: center;
+  margin: 0 auto;
+  width: 66%;
+}
+
+.space-between {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.space-between button {
+  background-color: rgb(178, 167, 167);
+  color: rgb(253, 248, 248);
+  padding: 15px;
+}
+
+.album {
+  display: flex;
+  margin: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.thumbnail {
+  background-color: rgb(183, 168, 168);
+  padding: 65px 25px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px rgb(188, 178, 178) solid;
+  border-radius: 4px;
+  box-shadow: 2px 2px 6px rgb(205, 202, 202);
+  background-color: #fff;
+  width:100%;
+}
+
+.card-container {
+  display: flex;
+  flex: 0 0 auto;
+  width: 100%;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+@media screen and (min-width: 700px) {
+  .card-container {
+    width: 50%;
+  }
+
+  .card {
+    width:200px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .card-container {
+    width: 33.3333%;
+  }
+
+  
+  .card {
+    width:300px;
+  }
+}
+
+
+.text-bottoms {
+  padding: 0 8px;
+  margin: 10px 0;
+  background-color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+  color: grey;
+  background-color: white;
+  border: 1px grey solid;
+  border-radius: 3px;
+  padding: 4px 8px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #dedede;
+  font-size: large;
+}
