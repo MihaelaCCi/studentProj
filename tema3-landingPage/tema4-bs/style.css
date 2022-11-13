@@ -1,0 +1,8 @@
+.eticheta {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    min-height: 40px;
+}
