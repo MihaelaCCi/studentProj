@@ -6,3 +6,14 @@
     color:white;
     min-height: 40px;
 }
+
+.catbg{
+    aspect-ratio: 1;
+    width:200px;
+    border-radius: 50%;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/05ad446d-7373-4ebb-9f22-54454b5c4e1d/dfhiykr-ade9ebbc-3037-482c-a7a9-6c700f33fa6a.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA1YWQ0NDZkLTczNzMtNGViYi05ZjIyLTU0NDU0YjVjNGUxZFwvZGZoaXlrci1hZGU5ZWJiYy0zMDM3LTQ4MmMtYTdhOS02YzcwMGYzM2ZhNmEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.CaQPzv9bJoM5ewBcj9nNrAh6YUkoFEyYhS016-op_Lg);
+background-size: cover;
+background-position: 100% 0;
+
+
+}
